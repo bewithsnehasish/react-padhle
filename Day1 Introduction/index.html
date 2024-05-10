@@ -7,15 +7,37 @@
 </head>
 <body>
     <div id="root"></div>
-</body>
+
+
+    <!-- <div id="container">
+        <h1>Heading 1</h1>
+        <h2>Heading 2</h2>
+    </div> -->
+
+
 <script crossorigin src="https://unpkg.com/react@18/umd/react.development.js"></script>
 <script crossorigin src="https://unpkg.com/react-dom@18/umd/react-dom.development.js"></script>
 <script>
-    const heading = React.createElement("h1",{
+    const div1 = React.createElement("h1",{
         id: "title",
     },"Namaste Everyone");
-    console.log(heading);
+
+    const heading = React.createElement("h1",{
+        id : "Title",
+    },"Heading 1");
+
+    const heading2 = React.createElement("h2",{
+        id : "description",
+        className : "heading",
+    },"Heading 2");
+
+    const container = React.createElement("div",{
+        id : "container",
+    },[heading,heading2]);
+
     const root = ReactDOM.createRoot(document.getElementById("root"));
-    root.render(heading);
+    root.render(container);
+
 </script>
+</body>
 </html>
