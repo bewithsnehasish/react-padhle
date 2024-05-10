@@ -1,0 +1,27 @@
+{
+  "name": "day2-ignite",
+  "version": "1.0.0",
+  "description": "This is Day2 of Learning Reacgt",
+  "main": "app.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/bewithsnehasish/react-padhle.git"
+  },
+  "author": "phoenix",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/bewithsnehasish/react-padhle/issues"
+  },
+  "homepage": "https://github.com/bewithsnehasish/react-padhle#readme",
+  "devDependencies": {
+    "parcel": "^2.12.0",
+    "process": "^0.11.10"
+  },
+  "dependencies": {
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1"
+  }
+}
