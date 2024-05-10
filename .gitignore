@@ -22,3 +22,4 @@ yarn.lock
 
 # Ignore sensitive files
 config.js
+.parcel-cache
