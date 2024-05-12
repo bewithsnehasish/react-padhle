@@ -15,6 +15,7 @@ import ReactDOM from "react-dom/client";
  * HTTPS on dev
  * port Number
  * Consistent Hashing Algorithm
+ * Tree  shaking - Removing unwanted code 
  */
 
 const div1 = React.createElement("h1",{
