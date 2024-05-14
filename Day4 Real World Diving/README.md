@@ -50,3 +50,38 @@ const copiedObject = { ...obj1 }; // { a: 1, b: 2 }
 In both cases, the spread operator is used to 'spread' the elements of an iterable (array or object) into another array or object. This feature provides a concise and elegant way to work with arrays and objects in JavaScript, enabling tasks such as array concatenation, object merging, and object copying.
 -----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
+## Config-Driven UI
+
+A config-driven UI is a design approach where the layout, appearance, and behavior of the user interface are defined by configuration files instead of hardcoded in the application's code. These configuration files specify elements like layout, styling, and behavior in a human-readable format such as JSON or YAML. Config-driven UIs offer flexibility, allowing rapid prototyping, customization, and reduced development time.
+
+```
+// Config Driven UI
+
+const Config = [
+    {
+        type: "carousel",
+        cards: [
+            {
+                offerName : "50% Off"
+            },
+            {
+                offerName : "No Delivery Charges"
+            }
+        ]
+    },
+    {
+        type: "restaurant",
+        cards: [
+            {
+                offerName : "50% Off"
+            },
+            {
+                offerName : "No Delivery Charges"
+            }
+        ]
+    }
+]
+
+
+```
+

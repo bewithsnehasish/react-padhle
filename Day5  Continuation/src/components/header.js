@@ -1,4 +1,4 @@
-const Title = () => (
+export const Title = () => (
     <a href="/">
             <img alt="logo" className="logo" src="https://foodvilla.no/src/img/logo.png"/>
     </a>
@@ -19,7 +19,7 @@ const Header =() =>{
                 </ul>
             </div>
         </div>
-    );
+    );  
 } ;
 
 
